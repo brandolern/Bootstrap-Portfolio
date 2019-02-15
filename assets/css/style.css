@@ -13,33 +13,29 @@ body {
     margin: 0 auto;
 }
 
-header {
-    width: 100%;
-    margin: auto;
-    background-color: #fff;
-    border-bottom: 2px solid #cccccc;
-    overflow: hidden;
-}
 
-.headerContent {
-    width: 100%;
+
+#headerwrap {
+    max-width: 940px;
+    margin: auto;
 }
 
 #logo {
     float: left;
-    width: 100%;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 70px;
+    padding: 0 5px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+
 }
 
-nav {
-    padding-top: 13px;
+.navbar {
+    padding: .25rem .5rem;
 }
 
 ul {
@@ -85,7 +81,7 @@ li.last {
     width: 100%;
     color: #fff;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
+    height: 52px;
 }
 
 h1,
@@ -108,8 +104,9 @@ h2 {
 }
 
 .profilePic {
-    margin: auto;
+
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .portfolioImgLeft {
@@ -159,23 +156,14 @@ input#submit {
     opacity: 1;
 }
 
-/* Media Queries 
+p {}
 
-@media (min-width: 576px) {
-    
+/* Media Queries */
 
+
+@media (max-width: 993px) {
+    #headerwrap {
+        margin: 0 auto;
+    }
 
 }
-
-@media (min-width: 768px) {
-    
-}
-
-@media (min-width: 992px) {
-    
-}
-
-@media (min-width: 1200px) {
-    
-}
-*/
