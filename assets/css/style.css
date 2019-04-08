@@ -109,12 +109,15 @@ h2 {
 }
 
 
-.portfolioImg {
-    width: 100%;
+.portImg {
+    width: 250px;
     margin: 0 auto 1rem auto;
 }
 
-
+.portItem {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid lightgrey;
+}
 
 hr {
     margin-bottom: 25px;
