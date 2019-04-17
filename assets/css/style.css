@@ -13,8 +13,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 #headerwrap {
     max-width: 940px;
     margin: auto;
@@ -72,6 +70,7 @@ li.last {
     overflow: hidden;
     border: 1px solid #dddddd;
     padding: 10px 25px 25px 25px;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 
 }
 
@@ -110,7 +109,7 @@ h2 {
 
 
 .portImg {
-    width: 250px;
+    max-width: 250px;
     margin: 0 auto 1rem auto;
 }
 
